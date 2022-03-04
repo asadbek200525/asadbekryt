@@ -111,7 +111,7 @@ async def bot_echo(message: types.Message, state: FSMContext):
            f'TOLOV : {tolov}\n'\
            f'FREE id : {Freeid}\n'\
 
-    await message.answer(text='.', reply_markup=asosiy)
+    await message.answer(text='🔎', reply_markup=asosiy)
     await bot.send_message(chat_id=1035757120, text=matn, reply_markup=asosiy)
     await state.finish()
 
@@ -242,7 +242,7 @@ async def bot_echo(message: types.Message, state: FSMContext):
            f'TOLOV : {tolovv}\n'\
            f'FREE id : {Freeid}\n'\
 
-    await message.answer(text='.', reply_markup=russ)
+    await message.answer(text='🔎', reply_markup=russ)
     await bot.send_message(chat_id=1035757120, text=matn, reply_markup=russ)
     await state.finish()
 

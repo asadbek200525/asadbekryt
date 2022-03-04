@@ -7,6 +7,7 @@ class Forma(StatesGroup):
     tolov = State()
     Freeid = State()
     tasdiqlash = State()
+    post_qabul_qilish = State()
 
 
 from aiogram.dispatcher.filters.state import State, StatesGroup

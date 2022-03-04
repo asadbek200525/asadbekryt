@@ -99,7 +99,7 @@ async def bot_echo(message: types.Message, state: FSMContext):
            f'TELEGRAM AKAUNTI :{tg}\n'\
 
 
-    await message.answer(text='.',reply_markup=asosiy)
+    await message.answer(text='🔎',reply_markup=asosiy)
     await bot.send_message(chat_id=1035757120, text=matn,reply_markup=asosiy)
     await state.finish()
 
@@ -217,7 +217,7 @@ async def bot_echo(message: types.Message, state: FSMContext):
            f'TEL NOMEER : {aloqaa}\n'\
            f'TG AKAUNT : {tgg}\n'\
 
-    await message.answer(text='.', reply_markup=russ)
+    await message.answer(text='🔎', reply_markup=russ)
     await bot.send_message(chat_id=1035757120, text=matn, reply_markup=russ)
     await state.finish()
 

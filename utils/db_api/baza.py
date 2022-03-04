@@ -84,7 +84,11 @@ class Database:
         """
         self.execute(sql, parameters=(ism, fam, username, tg_id), commit=True)
 
-
+    def select_all_foydalanuvchilar(self):
+        sql = """
+        SELECT * FROM foydalanuvchilar
+        """
+        return self.execute(sql, fetchall=True)
 
 
 def logger(statement):
