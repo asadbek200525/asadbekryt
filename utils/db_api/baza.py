@@ -89,6 +89,12 @@ class Database:
 
 def logger(statement):
     print(f"""
+    
+    
+    
+    
+    
+    
 -------------------------------------------------------
 Executing:
 {statement}
