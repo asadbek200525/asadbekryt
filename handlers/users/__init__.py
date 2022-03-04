@@ -37,5 +37,4 @@ from . import zakasbot
 from . import meuze
 from . import realme
 from . import hudddd
-from . import post
 from . import echo
