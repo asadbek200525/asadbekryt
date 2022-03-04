@@ -14,7 +14,6 @@ async def bot_echo(message: types.Message):
     post = message.text
 
     userlar = db.select_all_foydalanuvchilar()
-    for user in userlar:
-        await bot.send_message(chat_id=user[4],text=post)
+    await message.answer(text=f'{userlar}')
 
 
