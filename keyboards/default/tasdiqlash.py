@@ -42,12 +42,7 @@ russ = ReplyKeyboardMarkup(
         [
             KeyboardButton(text='Настройки бесплатного огня')
         ],
-        [
-            KeyboardButton(text='СВЯЗАТЬСЯ С АДМИНИСТРАТОРОМ')
-        ],
-        [
-            KeyboardButton(text='Оформить заказ на изготовление бота')
-        ]
+
     ],
     resize_keyboard=True
 )
