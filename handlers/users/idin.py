@@ -4,6 +4,7 @@ from aiogram.dispatcher import FSMContext
 from states.idinfikatsiya import idinfikatsiyaaa
 from keyboards.default.kunlari import bekor
 from keyboards.default.almazlar import asosiy_tugma
+from keyboards.default.telnomer import nomer
 from keyboards.default.tasdiqlash import asosiy
 from loader import dp, bot
 
@@ -34,7 +35,7 @@ async def bot_echo(message: types.Message,state: FSMContext):
 async def bot_echo(message: types.Message, state: FSMContext):
     idin = message.text
     await state.update_data({'idin':idin})
-    await message.answer(text='Siz bilan boglanishimz uchun nomeringini kiriting:',reply_markup=bekor)
+    await message.answer(text='Siz bilan boglanishimz uchun nomeringini kiriting:',reply_markup=nomer)
     await idinfikatsiyaaa.aloqa.set()
 @dp.message_handler(state=idinfikatsiyaaa.aloqa,text='Bekor qilish')
 async def bot_echo(message: types.Message,state: FSMContext):
