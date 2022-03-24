@@ -7,6 +7,9 @@ russpasport = ReplyKeyboardMarkup(
        ],
         [
             KeyboardButton(text='Russ pasport olish')
+        ],
+        [
+            KeyboardButton(text='glavniy menyu')
         ]
     ],
     resize_keyboard=True

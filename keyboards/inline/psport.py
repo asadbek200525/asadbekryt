@@ -15,6 +15,10 @@ nomer = InlineKeyboardMarkup(
             InlineKeyboardButton(text='8', callback_data='8'),
             InlineKeyboardButton(text='9', callback_data='9'),
             InlineKeyboardButton(text='10', callback_data='10')
+        ],
+        [
+            InlineKeyboardButton(text='❌',callback_data='ochirish'),
+            InlineKeyboardButton(text='➡️',callback_data='00')
         ]
     ]
 )

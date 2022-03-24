@@ -19,3 +19,8 @@ async def bot_echo(message: types.Message):
 @dp.message_handler(text='🔚')
 async def bot_echo(message: types.Message):
     await message.answer(text='🔚',reply_markup=nastroyy)
+
+# Echo bot
+@dp.message_handler(text='glavniy menyu')
+async def bot_echo(message: types.Message):
+    await message.answer(text='🔚',reply_markup=asosiy)
