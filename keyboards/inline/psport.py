@@ -22,3 +22,30 @@ nomer = InlineKeyboardMarkup(
         ]
     ]
 )
+
+
+from aiogram.types import InlineKeyboardButton,InlineKeyboardMarkup
+
+nomerr = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text='11',callback_data='11'),
+            InlineKeyboardButton(text='12',callback_data='12'),
+            InlineKeyboardButton(text='13',callback_data='13'),
+            InlineKeyboardButton(text='14',callback_data='14'),
+            InlineKeyboardButton(text='15',callback_data='15')
+        ],
+        [
+            InlineKeyboardButton(text='16', callback_data='16'),
+            InlineKeyboardButton(text='17', callback_data='17'),
+            InlineKeyboardButton(text='18', callback_data='18'),
+            InlineKeyboardButton(text='19', callback_data='19'),
+            InlineKeyboardButton(text='20', callback_data='20')
+        ],
+        [
+            InlineKeyboardButton(text='⬅️',callback_data='0'),
+            InlineKeyboardButton(text='❌',callback_data='ochirish'),
+            InlineKeyboardButton(text='➡️',callback_data='oldi')
+        ]
+    ]
+)
